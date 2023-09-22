@@ -40,6 +40,8 @@ To collect all messages from a specific Telegram channel, you can run:
 loop = asyncio.get_event_loop()
 data = loop.run_until_complete(collect_channel_messages(api_id, api_hash, phone_number, channel_username))
 ```
+
+**Note**: The `phone_number` parameter is the phone number associated with your Telegram account, including the country code (e.g., +1 for the United States).
 ## Collect a Subset of Messages
 To collect only the latest 200 messages, for example, use:
 
