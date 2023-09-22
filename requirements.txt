@@ -2,3 +2,4 @@ telethon
 pandas
 json
 pickle
+asyncio
