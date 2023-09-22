@@ -19,6 +19,12 @@ To install the development version of `telegram_scraper`, execute the following 
 pip install git+https://github.com/maggiezhangdata/telegram_scraper.git
 ```
 
+Also, remember to install all required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 # Usage
 ## Importing the Package and Setting Up
 First, import the package and initialize your API credentials:
